@@ -1,0 +1,85 @@
+header{
+    text-align: justify;
+    justify-content: space-between;
+    background-color: rgb(163, 230, 7);
+}
+.logo{
+    font-size: 50px;
+}
+.logo img{
+    height: 300px;
+    width: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav{
+    margin: 20px;
+    padding: 10px;
+}
+nav a{
+    margin-right: 20px;
+    font-size: 60px;
+}
+.img img{
+    width: 125%;
+    height: 420px;
+}
+.container{
+    display:grid;
+    background-color:rgb(69, 99, 35)
+}
+.img_container{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,13%);
+}
+.cc{
+    margin: 30px;
+    background-color: rgb(209, 139, 33);
+}
+.row1{
+display:flex;
+margin: 1%;
+}
+.product{
+    text-align: grid;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(245, 0, 0);
+    
+    border-radius: 4px;
+}
+.product img{
+    height: 500px;
+    width: 150px;
+}
+.product button{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+#productList div img{
+    height: 160px;
+    width: 200px;
+}
+#productList{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+.productList button{
+    background-color:bisque;
+    padding:10px;
+    border-radius: 3px;
+    font-style:oblique;
+}
+.productList{
+    background-color: rgb(255, 168, 127);
+}
+
